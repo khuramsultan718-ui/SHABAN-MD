@@ -9,13 +9,13 @@ SESSION_ID: process.env.SESSION_ID || "SMD~eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5c
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SᴇᴇN YᴏᴜʀE SᴛᴀᴛᴜS JᴜsT NᴏW IMAN💥*",
 // set the auto reply massage on status reply
-AUTO_CHATBOT: process.env.AUTO_CHATBOT || "false", 
+AUTO_CHATBOT: process.env.AUTO_CHATBOT || "true", 
 // "true" = default ON, "false" = default OFF
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups    
@@ -23,7 +23,7 @@ ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
-MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://ibb.co/tT8X1wGv",
+MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "<a href="https://ibb.co/tT8X1wGv"><img src="https://i.ibb.co/39BzP53j/IMG-20251031-WA0117.jpg" alt="IMG-20251031-WA0117" border="0"></a>",
 // add custom menu and mention reply image url   
 BOT_NAME: process.env.BOT_NAME || "𝙏̤𝙝꯭ع 𓆩ː͢𝐢ϻ̈̐𝐀᷍𝐍𓆩",
 // add bot namw here for menu
@@ -39,7 +39,7 @@ OWNER_NAME: process.env.OWNER_NAME || "𝙏̤𝙝꯭ع 𓆩ː͢𝐢ϻ̈̐𝐀᷍
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙏̤𝙝꯭ع 𓆩ː͢𝐢ϻ̈̐𝐀᷍𝐍𓆩*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://ibb.co/tT8X1wGv",
+ALIVE_IMG: process.env.ALIVE_IMG || "<a href="https://ibb.co/tT8X1wGv"><img src="https://i.ibb.co/39BzP53j/IMG-20251031-WA0117.jpg" alt="IMG-20251031-WA0117" border="0"></a>",
 // add img for alive msg 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
